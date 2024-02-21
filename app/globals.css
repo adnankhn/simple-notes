@@ -550,3 +550,121 @@
     @apply bg-background text-foreground;
   }
 }
+.custom-html-content {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.custom-html-content h1 {
+  font-size: 24px; /* Adjust as needed */
+  margin-bottom: 20px;
+  color: #333; /* Change color as needed */
+}
+
+
+
+.custom-html-content h2 {
+  font-size: 1.5em; /* Adjust as needed */
+  margin-bottom: 0.5em; /* Adjust as needed */
+  font-weight: bold;
+
+}
+
+.custom-html-content h3 {
+  font-size: 1.17em; /* Adjust as needed */
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.custom-html-content h4 {
+  font-size: 1em; /* Adjust as needed */
+  margin-bottom: 0.5em; /* Adjust as needed */
+  
+}
+
+.custom-html-content h5 {
+  font-size: 0.83em; /* Adjust as needed */
+  margin-bottom: 0.5em; /* Adjust as needed */
+}
+
+.custom-html-content h6 {
+  font-size: 0.67em; /* Adjust as needed */
+  margin-bottom: 0.5em; /* Adjust as needed */
+}
+
+
+.custom-html-content h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.custom-html-content p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.custom-html-content .article-content img,
+.custom-html-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-html-content figcaption {
+  /* font-style: italic; */
+  font-size: 14px;
+  color: #666;
+}
+
+.custom-html-content cite {
+  display: inline;
+  opacity: .75;
+}
+
+.custom-html-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.custom-html-content a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.custom-html-content ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  list-style-type: disc; /* unordered list style */
+}
+
+.custom-html-content ol {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  list-style-type: decimal; /* ordered list style */
+}
+
+.custom-html-content li {
+  margin-bottom: 5px;
+  list-style-type: inherit; /* inherit list style from parent */
+}

@@ -16,16 +16,16 @@ export default async function Home() {
           <div>
             <span className="w-auto px-6 py-3 rounded-full bg-secondary">
               <span className="text-sm font-medium text-primary">
-                Sort your notes easily
+                Your AI-powered Pocket
               </span>
             </span>
 
             <h1 className="mt-8 text-3xl font-extrabold tracking-tight lg:text-6xl">
-              Create Notes with ease
+            Save and Summarize Articles Effortlessly
             </h1>
             <p className="max-w-xl mx-auto mt-8 text-base lg:text-xl text-secondary-foreground">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et d
+            Save URLs and get AI-generated summaries for quick insights and easy reading.
+
             </p>
           </div>
 

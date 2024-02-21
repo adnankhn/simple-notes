@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Loader2, Trash } from "lucide-react";
+import { Loader2, Trash, Search } from "lucide-react";
 import { useFormStatus } from "react-dom";
 
 export function SubmitButton() {
@@ -74,3 +74,25 @@ export function TrashDelete() {
     </>
   );
 }
+
+
+export function SearchButton() {
+  const { pending } = useFormStatus();
+
+  return (
+    <>
+      {pending ? (
+        <Button variant={"destructive"} size="icon" disabled>
+          <Loader2 className="h-4 w-4 animate-spin" />
+        </Button>
+      ) : (
+        <Button variant={"primary"} size="icon" type="submit">
+      <Search className="h-4 w-4" />
+    </Button>
+      )}
+    </>
+  );
+}
+
+
+
